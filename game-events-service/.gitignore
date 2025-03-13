@@ -1,0 +1,60 @@
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+
+### Directorios de compilación ###
+/target/
+/out/
+/bin/
+
+### IDEs y editores ###
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+### Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### Maven ###
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+### Logs y archivos temporales ###
+*.log
+/logs/
+/tmp/
+
+### Spring Boot ###
+/*.env
+/.env
+*.properties~
+/*.properties.bak
+/application.yml
+/application-*.yml
+
+### Configuración específica del sistema ###
+.DS_Store
+Thumbs.db
+
+### Docker ###
+/docker-compose.override.yml
+/docker/data/
+/docker/logs/

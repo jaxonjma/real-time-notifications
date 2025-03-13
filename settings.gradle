@@ -1,0 +1,4 @@
+rootProject.name = 'real-time-notifications'
+include 'game-events-service'
+include 'notification-service'
+include 'api-gateway'
